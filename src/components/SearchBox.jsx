@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import "../styles/SearchBox.css"
+import "../styles/Searchbox.css"
 
 function SearchBox({ onSearchResult }) {
   const imgkey=import.meta.env.VITE_omdb_img_key
